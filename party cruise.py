@@ -6,4 +6,4 @@ guests=[]
 for i in range(len(entry)):
     count=count+entry[i]-exit[i]
     guests.append(count)
-    print(max(guests))
+    print(max(uests))
