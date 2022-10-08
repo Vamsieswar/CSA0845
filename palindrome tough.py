@@ -1,11 +1,6 @@
-def isPalindrome(s):
-    s1 = s.replace(' ', '')
-    s1=s1.replace(',','')
-    s1 = s1.lower()
-    s2 = s1[::-1];
-    return True if s1 == s2 else False
-s = input("s=")
-if (isPalindrome(s)):
-    print ("True")
+s=input("enter the value")
+reverse=s[::-1]
+if(s==reverse):
+    print("yes it is true")
 else:
-    print ("False")
+    print("no is is false")
